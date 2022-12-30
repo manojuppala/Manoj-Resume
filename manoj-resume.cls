@@ -12,6 +12,9 @@
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 
+% hyperlink styles
+\newcommand{\myhref}[3][2b2b2b]{\href{#2}{\colorbox{yellow!20}{#3}}}%
+
 % Publications
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
